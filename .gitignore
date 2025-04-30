@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Rasa specific files
+.rasa/
+.rasa-cache/
+*.db
+
+# Logs
+*.log
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# MySQL Workbench temp files
+*.bak
+*.tmp
+
+# Node modules (if using React frontend in same repo)
+node_modules/
+
+# Compiled Rasa model
+models/
+
+# Custom action server compiled files (if any)
+actions/__pycache__/
+
+# Ignore any SQLite DB files
+*.sqlite3
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+*.coverage
+
+# Rasa training data backups
+data/*.json.bak

@@ -1,0 +1,59 @@
+version: "3.1"
+
+stories:
+  - story: happy path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+
+  - story: sad path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: affirm
+      - action: utter_happy
+
+  - story: sad path denial
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: deny
+      - action: utter_goodbye
+
+  - story: ask about Sri Lanka
+    steps:
+      - intent: ask_about_sri_lanka
+      - action: utter_ask_about_sri_lanka
+
+  - story: ask travel tips
+    steps:
+      - intent: ask_for_travel_tips
+      - action: utter_ask_for_travel_tips
+
+  - story: ask visa info
+    steps:
+      - intent: ask_for_visa_information
+      - action: utter_ask_for_visa_information
+
+  - story: ask popular destinations
+    steps:
+      - intent: ask_for_popular_destinations
+      - action: utter_ask_for_popular_destinations
+
+  - story: ask hotels general
+    steps:
+      - intent: ask_for_hotels
+      - action: utter_ask_for_hotels
+
+  - story: user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye

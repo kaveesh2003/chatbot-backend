@@ -1,0 +1,13 @@
+version: "3.1"
+
+language: en  # English (you must specify this)
+
+pipeline:
+- name: WhitespaceTokenizer
+- name: CountVectorsFeaturizer
+- name: DIETClassifier
+  epochs: 100
+
+policies:
+- name: RulePolicy
+assistant_id: 20250428-211548-immense-carrier

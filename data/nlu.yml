@@ -1,0 +1,95 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - hello there
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - take care
+
+- intent: affirm
+  examples: |
+    - yes
+    - that's right
+    - correct
+    - indeed
+
+- intent: deny
+  examples: |
+    - no
+    - not really
+    - I don't think so
+
+- intent: mood_great
+  examples: |
+    - I feel great
+    - perfect
+    - amazing
+    - I'm very happy
+
+- intent: mood_unhappy
+  examples: |
+    - I'm sad
+    - not feeling well
+    - bad day
+    - very upset
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you human?
+
+- intent: ask_destinations
+  examples: |
+    - show me popular destinations
+    - what are the top places to visit?
+    - suggest travel spots in Sri Lanka
+
+- intent: ask_hotels
+  examples: |
+    - recommend hotels in Kandy
+    - hotel suggestions near Sigiriya
+    - where can I stay in Colombo?
+
+- intent: ask_guidelines
+  examples: |
+    - what are the travel guidelines?
+    - any safety info for travelers?
+    - visa or COVID rules?
+
+- intent: ask_about_sri_lanka
+  examples: |
+    - tell me about Sri Lanka
+    - what's Sri Lanka like?
+    - give me information about Sri Lanka
+
+- intent: ask_for_travel_tips
+  examples: |
+    - give me some travel tips
+    - any useful travel advice?
+
+- intent: ask_for_visa_information
+  examples: |
+    - how can I get a visa?
+    - do I need ETA for Sri Lanka?
+
+- intent: ask_for_hotels
+  examples: |
+    - I need hotel info
+    - where should I stay?
+    - suggest some good hotels
+
+- intent: ask_for_popular_destinations
+  examples: |
+    - most visited places in Sri Lanka
+    - what are the most famous tourist places?
