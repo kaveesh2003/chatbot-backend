@@ -62,7 +62,7 @@ class ActionProvideHotels(Action):
                 FROM hotels h
                 JOIN destinations d ON h.destination_id = d.id
                 ORDER BY h.rating DESC
-                LIMIT 5
+                LIMIT 05
             """
             cursor.execute(query)
             rows = cursor.fetchall()
