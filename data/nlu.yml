@@ -60,6 +60,7 @@ nlu:
     - recommend hotels in Kandy
     - hotel suggestions near Sigiriya
     - where can I stay in Colombo?
+    - recommend hotels
 
 - intent: ask_guidelines
   examples: |
